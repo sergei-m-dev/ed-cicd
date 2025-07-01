@@ -1,0 +1,6 @@
+services:
+  web:
+    container_name: test-web
+    image: ghcr.io/sergei-m-dev/ed-cicd:latest
+    ports:
+      - 8000:80
